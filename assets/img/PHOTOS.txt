@@ -1,0 +1,23 @@
+HOW TO ADD YOUR PHOTOS
+======================
+
+The site ships with placeholder images so it runs immediately. To use the
+5 photos you attached, just OVERWRITE these files (keep the exact names):
+
+  car-1.jpg   →  Bugatti Chiron Pur Sport   (the orange hypercar on cobblestone)
+  car-2.jpg   →  Ferrari F40                (the red car on the mountain road)
+  car-3.jpg   →  BMW M4 Competition         (the red/orange coupé at the dealership)
+  car-4.jpg   →  Porsche Cayman GT4         (the matte-orange car in the forest)
+  car-5.jpg   →  McLaren 600LT              (the orange car under the bridge)
+
+Where each one appears on the site:
+  • Hero (full screen background) ............ car-5  (McLaren)
+  • Performance section image ................ car-2  (Ferrari F40)
+  • Models slider (5 cards) .................. car-1 … car-5
+  • Gallery .................................. car-1, car-2, car-3, car-4
+
+Tips:
+  • Keep the filenames exactly as above (lowercase, .jpg).
+  • Landscape photos look best for the hero and performance image.
+  • If you want a different car in the hero, change the <img> src in
+    index.html (look for `class="hero__img"`).
